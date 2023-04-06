@@ -21,7 +21,12 @@ class HomeController extends Controller
      * @return \Illuminate\Contracts\Support\Renderable
      */
     public function index()
-    {
-        return view('home');
-    }
+{
+$admin = false;
+// get all the products
+$products = Product::all();
+//pass the data to th view
+return view('home', ['products' => $products, 'admin' => $admin],);
+}
+
 }
