@@ -35,7 +35,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                     <li class="nav-item "><a href="/" class="nav-link {{request()->is('/') ? 'active' : ''}}">Home</a></li>
-                    <li class="nav-item "><a href="#" class="nav-link {{request()->is('shop') ? 'active' : ''}}">Shop</a></li>
+                    <li class="nav-item "><a href="/shop" class="nav-link {{request()->is('shop') ? 'active' : ''}}">Shop</a></li>
                     <li class="nav-item "><a href="#" class="nav-link {{request()->is('contact') ? 'active' : ''}}">Contact</a></li>
 
 
